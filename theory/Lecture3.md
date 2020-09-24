@@ -78,4 +78,4 @@ update = W.assign(descent) # 게산값 assign 해줘서 넘김
 ## Optimizer을 통해 GradientDescent 원하는 대로 수정 가능.
 
 - 위 식과 같음.
-- `optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01`
+- `optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)`
