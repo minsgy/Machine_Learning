@@ -29,6 +29,8 @@
 
 ### Cost Function (Loss Function)
 
+![image](https://user-images.githubusercontent.com/60251579/94142973-0df0c600-feaa-11ea-84f3-5c41be3b6489.png)
+
 - How fit the line to our(training) data.
 - `H(x) - y` -> `(H(x)-y)^2`
 - 음수 값을 양수로 바꿔주며, 차이 값이 클 경우 패널티가 더욱 크게 하는 방법.
