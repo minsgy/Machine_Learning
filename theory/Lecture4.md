@@ -1,4 +1,4 @@
-# Multi-variable linear regression(New.Ver)
+# Tensorflow로 파일에서 Data Read
 
 🏅[Edwith](https://www.edwith.org/) - [머신러닝과 딥러닝 BASIC](https://www.edwith.org/others26/joinLectures/9829)
 
