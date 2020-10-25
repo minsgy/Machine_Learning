@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/venv,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=venv,python
+# Created by https://www.toptal.com/developers/gitignore/api/vscode,venv,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,venv,python
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -116,6 +116,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pythonenv*
 
 # Spyder project settings
 .spyderproject
@@ -138,6 +139,9 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+# profiling data
+.prof
+
 ### venv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
@@ -150,4 +154,12 @@ dmypy.json
 pyvenv.cfg
 pip-selfcheck.json
 
-# End of https://www.toptal.com/developers/gitignore/api/venv,python
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/vscode,venv,python
